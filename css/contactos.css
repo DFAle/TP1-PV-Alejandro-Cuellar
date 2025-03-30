@@ -34,3 +34,45 @@ header{
     transform: translateY(10px);
     transition: 0.8s;
 }
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 485px;
+}
+form {
+    width: 500px; 
+}
+input,textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #165066;
+    height: 200px;
+}
+.footer1{
+    color: white;
+    font-size: 23px;
+}
