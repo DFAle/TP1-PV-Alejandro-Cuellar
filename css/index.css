@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background: #165066;
+}
+
+.header1 .logo-header{
+   height: 80px;
+}
+
+.header2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 550px;
+    height: 45px;
+    margin: 5px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-weight: 800;
+}
+.link:hover{
+    border-bottom: solid 2px black;
+    transform: translateY(10px);
+    transition: 0.8s;
+}
