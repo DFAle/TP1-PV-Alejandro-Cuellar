@@ -34,3 +34,30 @@ header{
     transform: translateY(10px);
     transition: 0.8s;
 }
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+}
+
+.pregunta1{
+    font-size: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text1{
+    font-size: 20px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #165066;
+    height: 200px;
+}
+.footer1{
+    color: white;
+    font-size: 23px;
+}
